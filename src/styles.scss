@@ -1,0 +1,30 @@
+body {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.memory-game {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  gap: 10px;
+}
+
+.card {
+  flex-basis: 32%;
+  height: 200px;
+  background-color: grey;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.open {
+  background-color: white;
+  color: black;
+}
